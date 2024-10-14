@@ -43,7 +43,7 @@
             <div class="project-cards-container">
                 @foreach ($projects as $project)
                     <div class="card">
-                        <img src="{{ asset('img/project-preview/nunflix-preview.png') }}" alt="Project Preview Screenshot"
+                        <img src="{{ asset('storage/'.$project->image) }}" alt="Project Preview Screenshot"
                             class="card-preview-img">
                         <div class="card-info">
                             <div class="title-and-links">
